@@ -38,13 +38,13 @@ $result=mysql_query($sql);
 
 if($result!=1) 
 {
-echo "Failure!";
+echo "Mali naman! Enkk";
 }
 else{
-echo "Account Successfully Created";
+echo "Naks! May account ka na!";
 }
 } else {
-echo "That username already exists! Please try again with another.";
+echo "Meron na. Bigay ka na lang ng bagong username. Salamat!";
 }
 
 } else {
