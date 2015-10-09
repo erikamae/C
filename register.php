@@ -38,7 +38,7 @@ $result=mysql_query($sql);
 
 if($result!=1) 
 {
-echo "Failure!";
+echo "Game Over!!!";
 }
 else{
 echo "Account Successfully Created";
