@@ -38,13 +38,13 @@ $result=mysql_query($sql);
 
 if($result!=1) 
 {
-echo "Game Over!!!";
+echo "DONE!!!";
 }
 else{
-echo "Account Successfully Created";
+echo "YEHEY";
 }
 } else {
-echo "That username already exists! Please try again with another.";
+echo "Iba naman.";
 }
 
 } else {
